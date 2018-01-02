@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{7DF6E0AF-2BBC-48E1-B2A9-0FF09C6772F3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/AbstractEngine.cs">
+    <Files>
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Models/IEngine.cs" Line="18" Column="1" />
+      <File FileName="Models/AbstractEngine.cs" Line="33" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BazingaMotors PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
