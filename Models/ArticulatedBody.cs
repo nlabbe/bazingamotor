@@ -1,7 +1,7 @@
 ﻿using System;
 namespace BazingaMotors.Models
 {
-    public class ArticulatedBody
+    public class ArticulatedBody : IBody
     {
         public virtual string BodyParts
         {

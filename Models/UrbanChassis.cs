@@ -1,7 +1,7 @@
 ﻿using System;
 namespace BazingaMotors.Models
 {
-    public class UrbanChassis
+    public class UrbanChassis : IChassis
     {
         public virtual string ChassisParts
         {
@@ -9,9 +9,6 @@ namespace BazingaMotors.Models
             {
                 return "Chassis parts for a Urban bus. >:(";
             }
-        }
-        public UrbanChassis()
-        {
         }
     }
 }

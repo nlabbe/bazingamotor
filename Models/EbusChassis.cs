@@ -1,7 +1,7 @@
 ﻿using System;
 namespace BazingaMotors.Models
 {
-    public class EbusChassis
+    public class EbusChassis : IChassis
     {
         public virtual string ChassisParts
         {
