@@ -4,7 +4,6 @@ namespace BazingaMotors.Models
     public abstract class AbstractEngine : IEngine
     {
         private int power;
-        private int torque;
         private bool electric;
 
         public AbstractEngine(int power, bool electric)
