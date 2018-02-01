@@ -11,7 +11,7 @@
       <File FileName="Models/Micro.cs" Line="12" Column="13" />
       <File FileName="Models/Urban.cs" Line="16" Column="1" />
       <File FileName="Models/Articulated.cs" Line="13" Column="10" />
-      <File FileName="Models/Ebus.cs" Line="6" Column="24" />
+      <File FileName="Models/Ebus.cs" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
