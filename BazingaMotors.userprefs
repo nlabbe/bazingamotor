@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{7DF6E0AF-2BBC-48E1-B2A9-0FF09C6772F3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/EbusDirector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/AbstractBus.cs">
     <Files>
       <File FileName="Program.cs" Line="13" Column="1" />
       <File FileName="Models/VehicleBuilder.cs" Line="14" Column="9" />
@@ -11,12 +11,19 @@
       <File FileName="Models/MicroDirector.cs" Line="19" Column="1" />
       <File FileName="Models/UrbanDirector.cs" Line="14" Column="31" />
       <File FileName="Models/ArticulatedDirector.cs" Line="12" Column="10" />
-      <File FileName="Models/EbusDirector.cs" Line="19" Column="1" />
+      <File FileName="Models/EbusDirector.cs" Line="15" Column="10" />
+      <File FileName="Models/Ebus.cs" Line="10" Column="1" />
+      <File FileName="Models/ElectricEngine.cs" Line="9" Column="1" />
+      <File FileName="Models/AbstractEngine.cs" Line="13" Column="1" />
+      <File FileName="Models/AbstractBus.cs" Line="14" Column="1" />
+      <File FileName="Models/AbstractVehicle.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/nlabbe/dev/BazingaMotors/Program.cs" relfile="Program.cs" line="13" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BazingaMotors PreferredExecutionTarget="MonoDevelop.Default" />
