@@ -1,4 +1,5 @@
 ﻿using System;
+using BazingaMotors.Models;
 
 namespace BazingaMotors
 {
@@ -6,7 +7,47 @@ namespace BazingaMotors
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                Console.WriteLine("Hello world!, welcome to Bazinga Motor Company");
+                Console.Read();
+                Console.Write("Ingrese vehiculo");
+                Console.Read();
+                string vehicle = Console.ReadLine();
+
+                AbstractVehicleFactory factory = null;
+
+                switch (vehicle)
+                {
+                    case "ebus":
+                        factory = new EbusFactory();
+                        break;
+                    case "micro":
+                        factory = new MicroFactory();
+                        break;
+                    case "urban":
+                        factory = new UrbanFactory();
+                        break;
+                    case "articulated":
+                        factory = new ArticulatedFactory();
+                        break;
+                    default:
+                        break;
+                }
+
+                IBody vehicleBody = factory.CreateBody();
+                IChassis vehicleChassis = factory.CreateChassis();
+
+                Console.WriteLine(vehicleBody.BodyParts);
+                Console.WriteLine(vehicleChassis.ChassisParts);
+
+                Console.Read();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Vehiculo no valido :( ." + ex);
+            }
+
         }
     }
 }

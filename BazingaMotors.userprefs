@@ -1,11 +1,17 @@
 ﻿<Properties StartupConfiguration="{7DF6E0AF-2BBC-48E1-B2A9-0FF09C6772F3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/EbusFactory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/EbusChassis.cs">
     <Files>
       <File FileName="Models/AbstractVehicleFactory.cs" Line="8" Column="9" />
       <File FileName="Models/MicroFactory.cs" Line="14" Column="10" />
       <File FileName="Models/UrbanFactory.cs" Line="14" Column="10" />
       <File FileName="Models/ArticulatedFactory.cs" Line="8" Column="31" />
-      <File FileName="Models/EbusFactory.cs" Line="18" Column="6" />
+      <File FileName="Models/EbusFactory.cs" Line="12" Column="6" />
+      <File FileName="Program.cs" Line="46" Column="33" />
+      <File FileName="Models/IChassis.cs" Line="9" Column="1" />
+      <File FileName="Models/MicroChassis.cs" Line="10" Column="17" />
+      <File FileName="Models/UrbanChassis.cs" Line="10" Column="58" />
+      <File FileName="Models/ArticulatedChassis.cs" Line="10" Column="64" />
+      <File FileName="Models/EbusChassis.cs" Line="10" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

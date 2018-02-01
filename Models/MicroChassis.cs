@@ -7,7 +7,7 @@ namespace BazingaMotors.Models
         {
             get
             {
-                return "Chassis parts for a Micro bus. >:(";
+                return "Chassis parts for a Micro bus. :)";
             }
         }
 

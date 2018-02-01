@@ -7,7 +7,7 @@ namespace BazingaMotors.Models
         {
             get
             {
-                return "Chassis parts for a Articulated bus. >:(";
+                return "Chassis parts for a Articulated bus. :)";
             }
         }
         public ArticulatedChassis()
