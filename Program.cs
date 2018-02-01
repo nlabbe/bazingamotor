@@ -9,9 +9,9 @@ namespace BazingaMotors
         {
             try
             {
-                Console.WriteLine("Hello world!, welcome to Bazinga Motor Company");
+                Console.WriteLine("Hello, Bienvenido a Bazinga Motor Company");
                 Console.Read();
-                Console.Write("Ingrese vehiculo");
+                Console.Write("Ingrese vehículo");
                 Console.Read();
                 string vehicle = Console.ReadLine();
 
@@ -45,7 +45,7 @@ namespace BazingaMotors
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Vehiculo no valido :( ." + ex);
+                Console.WriteLine("Vehículo no valido :( ." + ex);
             }
 
         }
