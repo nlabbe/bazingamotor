@@ -9,7 +9,7 @@ namespace BazingaMotors
         {
             try
             {
-                Console.WriteLine("Hello, Bienvenido a Bazinga Motor Company");
+                Console.WriteLine("Hola, Bienvenido a Bazinga Motor Company");
                 Console.Read();
                 Console.Write("Ingrese vehículo");
                 Console.Read();
