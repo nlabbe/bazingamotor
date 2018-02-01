@@ -8,3 +8,4 @@
 /Users/nlabbe/dev/BazingaMotors/obj/Debug/netcoreapp2.0/BazingaMotors.AssemblyInfo.cs
 /Users/nlabbe/dev/BazingaMotors/obj/Debug/netcoreapp2.0/BazingaMotors.dll
 /Users/nlabbe/dev/BazingaMotors/obj/Debug/netcoreapp2.0/BazingaMotors.pdb
+/Users/nlabbe/dev/BazingaMotors/obj/Debug/netcoreapp2.0/BazingaMotors.csprojResolveAssemblyReference.cache

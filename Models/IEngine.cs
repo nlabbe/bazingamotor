@@ -3,12 +3,12 @@ namespace BazingaMotors.Models
 {
     public interface IEngine
     {
-        int Size
+        int Power
         {
             get;
         }
 
-        bool Turbo
+        bool Electric
         {
             get;
         }

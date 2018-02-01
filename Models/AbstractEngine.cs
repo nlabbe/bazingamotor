@@ -1,37 +1,38 @@
 ﻿using System;
 namespace BazingaMotors.Models
 {
-    public class AbstractEngine : IEngine
+    public abstract class AbstractEngine : IEngine
     {
-        private int size;
-        private bool turbo;
+        private int power;
+        private int torque;
+        private bool electric;
 
-        public AbstractEngine(int size, bool turbo)
+        public AbstractEngine(int power, bool electric)
         {
-            this.size = size;
-            this.turbo = turbo;
+            this.power = power;
+            this.electric = electric;
         }
 
-        public virtual int Size
+        public virtual int Power
         {
             get
             {
-                return size;
+                return power;
 
             }
         }
 
-        public virtual bool Turbo
+        public virtual bool Electric
         {
             get
             {
-                return turbo;
+                return electric;
             }
         }
 
         public override string ToString()
         {
-            return string.Format("[AbstractEngine: Size={0}, Turbo={1}]", Size, Turbo);
+            return string.Format("[AbstractEngine: Power={0}, Electric={1}]", power, electric);
         }
     }
 }
